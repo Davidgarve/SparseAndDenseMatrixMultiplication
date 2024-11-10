@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.jmh_generated.MatrixMultiplicationBenchmarking_multiplication_jmhTest" time="0.029" tests="0" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Usuario\IdeaProjects\jmh-project1\target\test-classes;C:\Users\Usuario\IdeaProjects\jmh-project1\target\classes;C:\Users\Usuario\.m2\repository\org\openjdk\jmh\jmh-core\1.35\jmh-core-1.35.jar;C:\Users\Usuario\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Usuario\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\Usuario\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.35\jmh-generator-annprocess-1.35.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Atlantic/Canary"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Users\Usuario\.jdks\corretto-17.0.8.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Usuario\AppData\Local\Temp\surefire332168566238976436\surefirebooter-20241009162036598_3.jar C:\Users\Usuario\AppData\Local\Temp\surefire332168566238976436 2024-10-09T16-20-36_455-jvmRun1 surefire-20241009162036598_1tmp surefire_0-20241009162036598_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Usuario\IdeaProjects\jmh-project1\target\test-classes;C:\Users\Usuario\IdeaProjects\jmh-project1\target\classes;C:\Users\Usuario\.m2\repository\org\openjdk\jmh\jmh-core\1.35\jmh-core-1.35.jar;C:\Users\Usuario\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Usuario\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\Usuario\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.35\jmh-generator-annprocess-1.35.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Usuario"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-22"/>
+    <property name="java.home" value="C:\Users\Usuario\.jdks\corretto-17.0.8.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Usuario\IdeaProjects\jmh-project1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Usuario\AppData\Local\Temp\surefire332168566238976436\surefirebooter-20241009162036598_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8.1+8-LTS"/>
+    <property name="user.name" value="Usuario"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-17.0.8.8.1"/>
+    <property name="localRepository" value="C:\Users\Usuario\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Usuario\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.2.2"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="user.dir" value="C:\Users\Usuario\IdeaProjects\jmh-project1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Usuario\.jdks\corretto-17.0.8.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Usuario\AppData\Local\Programs\Python\Python312\Lib\site-packages;C:\Program Files\Pandoc\;C:\Program Files\Java\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2024b\bin;C:\Users\Usuario\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Usuario\AppData\Local\Programs\Python\Python312\;C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps;;C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Usuario\AppData\Roaming\TinyTeX\bin\win32;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="17.0.8.1+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+</testsuite>
